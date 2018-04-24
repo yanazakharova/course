@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+}
+.first{
+   margin-bottom: 50px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   padding: 20 px;
+}
+.second{
+   margin-bottom: 50px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: pink;
+   padding: 20 px;
+}
+.third{
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellow;
+    padding: 20 px;
+}
