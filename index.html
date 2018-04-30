@@ -1,81 +1,100 @@
 <!DOCTYPE html>
 <html>
-   <head> 
+   <head>
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" href="styles/normalize.css" >
       <meta charset="utf-8">
       <title>Заголовок страницы</title>
-      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
    </head>
    <body>
-        <h1> Захарова Яна </h1>
-        <h2> Графический дизайнер </h2>
-        <p> Привет! Мне 20 лет и 6 из них я увлекаюсь графическим дизайном. </p>
-        <p> По большей части я делаю дизайн для реального мира логотипы, визитки, фирстиль (в общем айдентику), книги, зины, упаковку и журналы. 
-            Иными словами, все что можно потрогать и подержать в руках. </p>
-        <p>Сейчас я учусь программировать в html, надеюсь скоро поделиться опытом</p>
-        <ul>
-            <li>Крем</li>
-            <li>Пирожок</li>
-            <li>Проездной</li>
-         </ul>
-         <ol>
-            <li>Курс по иллюстрации</li>
-            <li>Билеты</li>
-            <li>Румяна</li>
-         </ol>
-         <a href="https://vk.com/yz_rt" target="blank">Ссылка на вк</a>
-         <img src="cat.jpg">
-         <table border="1">
-            <tr>
-                <td colspan="2">Игра престолов</td>
-                <td>Дэвид Бенеофф</td>
-                <td>2011</td> 
-            </tr>
-            <tr>
-                <td colspan="2">Pirates of the Caribbien</td>
-                <td>Gor Verbinski</td>
-                <td>2003</td>
-            </tr>
-            <tr>
-                <td colspan="2">Мстители</td>
-                <td>Джосс Уидон</td>
-                <td>2011</td>
-            </tr>
-          </table>
-          <label>Логин</label>
-          <input type="text">
-          <label>Пароль</label>
-          <input type="password">
-          <label>Имя-Фамилия</label>
-          <input type="text">
-          <label>Никнейм</label>
-          <input type="text">
-          <label>С правилами согласен</label>
-          <input type="checkbox">
-          <form>
-            <h1>Карбонара</h1>
-            <input type="text" placeholder="Спагетти"><br>
-            <input type="text" placeholder="Бекон"><br>
-            <input type="text" placeholder="Сливки"><br>
-            <input type="text" placeholder="Желтки"><br>
-            <input type="text" placeholder="Сыр"><br>
-            <input type="checkbox">
-            <label>Солить?</label><br>
-            <button type="submit">Приготовить!</button>
-         </form>
-         <div class="first">
-             <p>Флинн Карсен имеет 22 высших образования и не может ничего, кроме как учиться. Мать Флинна постоянно заботится о сыне, мечтая устроить его личную жизнь. Его выгоняют из университета, и он отправляется искать работу[2]. Он приходит в огромную таинственную библиотеку, демонстрирует удивительные способности, и из сотен кандидатов выбирают именно его.</p>
-             <p>Он узнает, что библиотекарь здесь — это не просто профессия, а сущность. Он должен стать хранителем исторических и магических предметов, хранящихся в секретной части библиотеки. Флинн узнает, что предыдущий библиотекарь был убит. Его работодателем и учителем становится мудрый Джадсон. </p>
-         </div>
-         <div class="second">
-             <p>Из Нью-Йоркской публичной библиотеки похищен магический артефакт, именуемый Копьем Судьбы, точнее, его часть. Копье разделено на три части, которые рассредоточены по миру. Известно, что одна из них принадлежала Гитлеру.</p>
-             <p>Теперь за остальными частями охотится таинственное Змеиное братство. Флинн, как новый Библиотекарь, должен найти все части копья и не дать злодеям себя опередить. Единственное, что может ему помочь, это его собственный незаурядный ум и книга, написанная на древнем птичьем языке, никем до этого не переведенная. </p>
-         </div>
-         <div class="third">
-             <p>В самолете на Флинна нападают члены Братства, и его спасает женщина Николь, знакомая с прежним библиотекарем и влюбленная в него. Она винит себя в его смерти. Вместе с Флинном они прыгают из самолета и оказываются посреди амазонских лесов, полных опасностей. </p>
-             <p>Вслед за ними приземляются члены Змеиного братства и отправляются на поиски. Они хотят добыть книгу, находящуюся у Флинна. </p>
-         </div>
-         <button class="btn">
-            <img src="tel.png">
-         </button>
+        <header>
+                <div class="container">
+                        <div class="col-12 justify-center">
+                            <a href="/">
+                             <img src="images/herschel-logo.svg">
+                            </a>
+                            <div class="header-logo-col">                           
+                                </div>
+                        </div>
+                <div class="col-12"></div>
+                    </div>
+                <div class="col-12 justify-center">
+                            <nav>
+                              <a href="#">Рюкзаки</a>
+                              <a href="#">Аксессуары</a>
+                              <a href="#">Сумки</a>
+                              <a href="#">Шапки</a>
+                              <a href="#">Перчатки</a>
+                            </nav>
+                         </div>
+        </header>
+        <main>
+                <div class="container">
+                        <section class="main-item">
+                          <div class="main-item-container">
+                            <img class="main-item-img" src="images/header-img.png">
+                            <span class="main-item-heading">Herschel bag</span>
+                            <span class="main-item-price">110 usd</span>
+                          </div>
+                      <div class="row justify-center">
+                            <div class="col-4">
+                               <button class="main-item-btn main-item-btn-dark">
+                                  Подробнее
+                               </button>
+                            </div>
+                            <div class="col-4">
+                               <button class="main-item-btn">
+                                  В корзину
+                               </button>
+                            </div>
+                         </div>
+                        </section>
+                    </div>
+                         <section>
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="card">
+                                      <img class="card-img" src="images/card-item-1.png">
+                                      <a href="#" class="card-heading">Серый рюкзак Herschel</a>
+                                      <p class="card-description">
+                                         Lorem ipsum dolor sit amet,
+                                         consectetur adipisicing elit.
+                                         Debitis hic autem, similique id
+                                         vitae, vero asperiores possimus
+                                         voluptate quo commodi saepe
+                                         numquam qui quae.
+                                         Aspernatur, natus dolorem!Minus, harum, ipsam.
+                                      </p>
+                                      <span class="card-price">100 USD</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                       <div class="row">
+                                          <div class="row">
+                                              <div class="col-4">
+                                                <div class="card"></div>
+                                              </div>
+                                              <div class="col-4">
+                                                <div class="card"></div>
+                                              </div>
+                                              <div class="col-4">
+                                                <div class="card"></div>
+                                              </div>
+                                            </div>
+
+              </section>
+                              
+        </main>
+        <footer>
+                <div class="footer-links">
+                        <a href="#">Terms and conditions</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Cookies policy</a>
+                      </div>
+                      <span>All rights reserved © 2018</span>
+        </footer>
+
    </body>
 </html>
